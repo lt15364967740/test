@@ -1,5 +1,40 @@
-.page-root{
-  position: fixed;
+/* 
+body {
+  margin: 0;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  width: 100vw;
+  height: 100vh;
+  font-family: "Aeonik_OVERVIEW";
+}
+#root{
+  position: relative;
   width: 100%;
   height: 100%;
+}
+
+#ecctrl-joystick{
+  
+} */
+
+.canvas-container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+}
+
+.portrait {
+  transform-origin: top left;
+  transform: rotate(90deg) translateY(-100%);
 }
